@@ -1,0 +1,23 @@
+footer {
+  padding: 40px 0;
+  background: #344b8e;
+  border: none;
+  border-top: 1px dashed #3c5499;
+  .container {
+    display: flex;
+    justify-content: space-around;
+
+    a {
+      font-family: "Titillium Web", sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      color: #fff;
+      text-decoration: none;
+      transform: all 0.3s ease-in-out;
+
+      &:hover {
+        color: #30bae7;
+      }
+    }
+  }
+}

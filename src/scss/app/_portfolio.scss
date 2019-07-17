@@ -1,0 +1,107 @@
+#portfolio-section {
+  background: #ffdd99;
+  padding: 110px 0;
+
+  h3.heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #393939;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    border: 3px solid #e5c37f;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  p.sub-heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #393939;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .portfolio-filter {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 35px;
+
+    .filter-btn {
+      font-family: "Titillium Web", sans-serif;
+      font-size: 16px;
+      color: #393939;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 5px solid #ebc985;
+      border-radius: 5px;
+      background: #ebc985;
+      transform: all 0.3s ease-in-out;
+      width: 85px;
+      text-align: center;
+
+      &:hover {
+        border: 5px solid #fff;
+        background: #fff;
+      }
+    }
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    margin-bottom: 75px;
+
+    .portfolio-item {
+      .img-wrapper {
+        padding-bottom: 25px;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      h4.title {
+        font-family: "Titillium Web", sans-serif;
+        font-size: 18px;
+        color: #393939;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .load-more-btn {
+    margin: 0 auto;
+    color: #fff;
+    background: #17c2a4;
+    margin-top: 25px;
+    width: 300px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    p {
+      font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      vertical-align: middle;
+      margin: 0 auto;
+      color: #fff;
+    }
+  }
+}

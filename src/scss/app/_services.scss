@@ -1,0 +1,70 @@
+#services-section {
+  background: #17c2a4;
+  padding: 110px 0;
+
+  h3.heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    border: 3px solid #14a58c;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  p.sub-heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .services-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .services-column {
+      max-width: 260px;
+      &.last {
+        padding-right: 0;
+      }
+      padding-right: 20px;
+      .img-wrapper {
+        text-align: center;
+        margin-bottom: 50px;
+        img {
+          display: inline-block;
+        }
+      }
+
+      h4.title {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      p.description {
+        font-family: "Titillium Web", san-serif;
+        font-weight: 300;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+}

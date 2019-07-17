@@ -1,0 +1,63 @@
+#skills-section {
+  background: #fff;
+  padding: 110px 0;
+
+  h3.heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #3c4761;
+    margin-bottom: 20px;
+  }
+
+  hr {
+    border: 3px solid #dfe8ed;
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  p.sub-heading {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: #3c4761;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .skills-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .skills-column {
+      max-width: 260px;
+      padding-right: 20px;
+
+      &.last {
+        padding-right: 0;
+      }
+
+      .img-wrapper {
+        text-align: center;
+        margin-bottom: 25px;
+        img {
+          display: inline-block;
+        }
+      }
+
+      h4.title {
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        color: #3c4761;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
