@@ -1,0 +1,20 @@
+#credit-section {
+  padding: 20px 0;
+  background: #3c5499;
+
+  .container {
+    margin: 0 auto;
+    p.credit-text {
+      font-family: "Titillium Web", sans-serif;
+      text-align: center;
+      color: #273a71;
+      margin: 0 auto;
+      font-weight: 700;
+
+      a {
+        text-decoration: none;
+        color: #273a71;
+      }
+    }
+  }
+}

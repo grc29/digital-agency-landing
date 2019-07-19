@@ -50,6 +50,26 @@
           border-radius: 50%;
           display: inline-block;
           margin-right: 50px;
+
+          &.iman {
+            background: url("/images/testimonials-mugshot-iman.jpg");
+            background-position: center center;
+          }
+
+          &.lima {
+            background: url("/images/testimonials-mugshot-lima.jpg");
+            background-position: center center;
+          }
+
+          &.hathaway {
+            background: url("/images/testimonials-mugshot-hathaway.jpg");
+            background-position: center center;
+          }
+
+          &.stone {
+            background: url("/images/testimonials-mugshot-stone.jpg");
+            background-position: center center;
+          }
         }
 
         p.testimonial {
